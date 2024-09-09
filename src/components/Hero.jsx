@@ -17,7 +17,9 @@ const Hero = () => {
                     onClick={() => window.open("https://webpill.ee", "_blank")}
                     className="black_btn"
                 >
-                    webpill.
+                    <h2 className="text-2xl font-semibold">
+                        webpill<span className="text-accent">.</span>
+                    </h2>
                 </button>
             </nav>
 
